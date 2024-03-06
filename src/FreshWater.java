@@ -11,7 +11,11 @@ public class FreshWater extends Fish{
         String output  = super.toString;
         output += " It lives in "
         if(dirtyWater){
-            
+            output += " dirty water.";
+        }
+        else{
+            output += " clean water.";
+        }
         
         return output;
     }
