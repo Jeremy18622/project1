@@ -11,10 +11,7 @@ public class Bass extends FreshWater{
         return output;
     }
 
-    public String toString(){
-        String output  = "";
-        return output;
-    }
+    
 
 
     public String getPrey() {
