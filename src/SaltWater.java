@@ -5,6 +5,19 @@ public class SaltWater extends Fish{
         super(name, length);
         this.dirtyWater = dirtyWater;
     }
+    
+    public String toString(){
+        String output  = super.toString;
+        output += " It lives in "
+        if(dirtyWater){
+            output += " dirty water.";
+        }
+        else{
+            output += " clean water.";
+        }
+        
+        return output;
+    }
 
     public boolean isDirtyWater() {
         return dirtyWater;
