@@ -18,7 +18,7 @@ public class Fish {
     }
 
     public String toString(){
-        String output  = "";
+        String output  = "This fishes name is " + getName() + " and it is " + getlength() + " inches long.";
         return output;
     }
 
