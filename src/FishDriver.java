@@ -9,7 +9,7 @@ public class FishDriver {
         Bass bass = new Bass("Billy the Bass", 21, false, "Bluegill");
         Bluegill bluegill = new Bluegill("Ben the Bluegill", 6, false, "Minnows");
 
-        Fish[][] array = new Fish[[fish, saltyFish, freshFish], [tarpon, bass, bluegill]];
+        Fish[][] array = {{fish, saltyFish, freshFish}, {tarpon, bass, bluegill}};
 
         
         
