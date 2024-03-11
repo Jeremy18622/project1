@@ -12,7 +12,7 @@ public class FishDriver {
         Fish[][] array = {{fish, saltyFish, freshFish}, {tarpon, bass, bluegill}};
 
         for(int i = 0; i < array.length; i++){
-            for(int j = 0; j < array[i].length; j++){
+            for(int j = 0; j < array.length[i]; j++){
                 System.out.println(array[i][j].toString());
                 System.out.println(array[i][j].eat());
             }
