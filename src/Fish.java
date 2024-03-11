@@ -4,21 +4,11 @@ public class Fish {
     private int length;
 
     public Fish(String name, int length){
-
         this.length = length;
         this.name = name;
-
     }
-
     public String eat(){
-
         String output = name + " ate a fish";
-        return output;
-
-    }
-
-    public String toString(){
-        String output  = "This fishes name is " + getName() + " and it is " + getlength() + " inches long.";
         return output;
     }
 
@@ -37,4 +27,10 @@ public class Fish {
     public void setLength(int length) {
         this.length = length;
     }
+
+    public String toString(){
+        String output  = "This fishes name is " + getName() + " and it is " + getLength() + " inches long.";
+        return output;
+    }
+
 }

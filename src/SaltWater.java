@@ -7,15 +7,14 @@ public class SaltWater extends Fish{
     }
     
     public String toString(){
-        String output  = super.toString;
-        output += " It lives in "
+        String output  = super.toString();
+        output += " It lives in ";
         if(dirtyWater){
             output += " dirty water.";
         }
         else{
             output += " clean water.";
         }
-        
         return output;
     }
 
